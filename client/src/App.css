@@ -1,0 +1,45 @@
+.Activelinks{
+  text-decoration: none !important;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  /* justify-content: space-around; */
+  margin-left:40px ;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: gray;
+}
+.Activelinks:hover{
+  background-color: green;
+}
+.marginlogin{
+  margin-left: 450px;
+  /* border: 1px solid black;   */
+}
+.website{
+  color: rgb(110, 110, 196);
+}
+
+/* ................................................. */
+/* .............Search bar CSS.................... */
+*{
+  font-family: ;
+}
+body{
+    background-color: rgb(209,204,204);
+  }
+  .templateContainer{
+    margin: 2% 0;
+    display: block;
+  }
+  .searchInput_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .templateContainer > .searchInput_Container input{
+    width: 50%;
+    padding: 10px;
+    outline: none;
+  }
